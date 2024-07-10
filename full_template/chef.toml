@@ -30,10 +30,10 @@ template = "gitignore.jet"
 fullname = ".gitignore"
 vars = {}
 
-[[files]]
-template = "goreleaser.jet"
-fullname = "goreleaser.yml"
-vars = { appName = "My App" }
+# [[files]]
+# template = "goreleaser.jet"
+# fullname = "goreleaser.yml"
+# vars = { appName = "My App" }
 
 [[files]]
 template = "license.jet"
