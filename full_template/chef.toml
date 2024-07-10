@@ -9,3 +9,48 @@ vars = { appName = "My Project" }
 template = "env.jet"
 fullname = ".env"
 vars = { appName = "My Project", appKey = "key123", appPort = 3000 }
+
+[[files]]
+template = "air.jet"
+fullname = ".air.toml"
+vars = {}
+
+[[files]]
+template = "changelog.jet"
+fullname = "CHANGELOG.md"
+vars = {}
+
+[[files]]
+template = "docker_compose.jet"
+fullname = "docker_compose.yml"
+vars = { mysqlRootPassword = "password", mysqlDatabase = "root", mysqlUser = "root", mysqlPassword = "password", mysqlPortOut = 3306, mysqlPortIn = 3036  }
+
+[[files]]
+template = "gitignore.jet"
+fullname = ".gitignore"
+vars = {}
+
+[[files]]
+template = "goreleaser.jet"
+fullname = "goreleaser.yml"
+vars = { appName = "My App" }
+
+[[files]]
+template = "license.jet"
+fullname = "LICENSE"
+vars = { year = 2024, authorName = "Pedro Luz", authorEmail = "pedromsluz@gmail.com" }
+
+[[files]]
+template = "main.jet"
+fullname = "main.go"
+vars = { }
+
+[[files]]
+template = "handlers/handler.jet"
+fullname = "handlers/handler.go"
+vars = {  }
+
+[[files]]
+template = "cmd/start.jet"
+fullname = "cmd/start.go"
+vars = { }

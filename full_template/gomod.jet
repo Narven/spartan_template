@@ -1,3 +1,0 @@
-module {{ modulePath }}
-
-go 1.22.5
