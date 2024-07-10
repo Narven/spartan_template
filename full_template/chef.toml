@@ -1,13 +1,11 @@
 version = 1
 
-[[data]]
-
-[[data.readme]]
+[[files]]
 template = "readme.jet"
 fullname = "README.md"
 vars = { appName = "My Project" }
 
-[[data.env]]
+[[files]]
 template = "env.jet"
 fullname = ".env"
 vars = { appName = "My Project", appKey = "key123", appPort = 3000 }
