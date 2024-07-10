@@ -1,0 +1,25 @@
+# code editors
+vscode
+.idea
+
+# local environment variables
+.env
+
+# templ - template engine
+*_templ.go
+
+# air
+bin
+tmp
+
+# goreleaser
+dist
+
+# other
+.DS_Store
+
+# js/css stuff
+node_modules
+
+*_templ.go
+*_templ.txt

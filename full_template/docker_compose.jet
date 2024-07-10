@@ -1,0 +1,15 @@
+services:
+  db:
+    image: mysql:8
+    environment:
+      - MYSQL_ROOT_PASSWORD={{ mysqlRootPassword }}
+      - MYSQL_DATABASE={{ mysqlDatabase }}
+      - MYSQL_USER={{ mysqlUser }}
+      - MYSQL_PASSWORD={{ mysqlPassword }}
+    ports:
+      - {{ mysqlPortOut }}:{{ mysqlPortIn }}
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
